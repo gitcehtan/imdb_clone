@@ -1,0 +1,38 @@
+.detail-container{
+    height: 650px;
+    
+    width: 900px;
+    margin: 0px 50px 50px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 10px 0px 50px;
+    
+}
+
+.detail-movie-name{
+   font-size: 30px;
+   background-color: black;
+   color: whitesmoke;
+   padding: 5px;
+   margin-bottom: 10px;
+}
+
+.detail-content{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding: 10px;
+}
+.detail-content .image > img{
+    height: 450px;
+    width: 300px;
+    
+
+}
+.detail-content .detail{
+   margin: 5px 10px;
+}
